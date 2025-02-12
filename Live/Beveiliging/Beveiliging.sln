@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yunex", "Yunex\Yunex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeBeveiliging", "DeBeveiliging\DeBeveiliging.csproj", "{F7906A8F-E895-416F-8098-E27CB7672F04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEEE", "IEEE\IEEE.csproj", "{BE1EEED1-FA71-42FC-B4B1-E65374CFADE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F7906A8F-E895-416F-8098-E27CB7672F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7906A8F-E895-416F-8098-E27CB7672F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7906A8F-E895-416F-8098-E27CB7672F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1EEED1-FA71-42FC-B4B1-E65374CFADE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1EEED1-FA71-42FC-B4B1-E65374CFADE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1EEED1-FA71-42FC-B4B1-E65374CFADE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1EEED1-FA71-42FC-B4B1-E65374CFADE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,14 @@
-﻿namespace Logitech;
+﻿using IEEE;
 
-public class Camera
+namespace Logitech;
+
+public class Camera: IDetectable
 {
+    public void Detect()
+    {
+        Record();
+    }
+
     public void Record()
     {
         Console.WriteLine("De camera start de opname");

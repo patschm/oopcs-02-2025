@@ -14,6 +14,15 @@ internal class Program
         Camera camera = new Camera();
         DetectieLus lus = new DetectieLus();
 
+        lus.Connect(camera);
+        lus.Connect(hek);
+        lus.Connect(valkuil);
+
+        lus.Detecteert();
+
+        lus.Connect(hek.Open);
+        lus.Connect(camera.Record);
+        lus.Connect(valkuil.Open);
 
         lus.Detecteert();
        
