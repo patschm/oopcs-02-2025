@@ -25,6 +25,15 @@ internal class Program
         lus.Connect(valkuil.Open);
 
         lus.Detecteert();
+
+        lus.Detect += hek.Open;
+        lus.Detect += camera.Record;
+        lus.Detect += valkuil.Open;
+
+        lus.Detecteert();
+
+        lus.Detecting += hek.Open;
+        lus.Detecteert();
        
     }
 }

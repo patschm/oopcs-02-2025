@@ -7,7 +7,10 @@ public delegate void Signal();
 public class DetectieLus
 {
     private IDetectable[]  devices = new IDetectable[10];
+    //private Signal[] devices2 = new Signal[10];
     private Signal signals;
+    public event Signal Detect;
+    public event EventHandler Detecting;
 
     public void Connect(Signal signal)
     {
@@ -33,5 +36,9 @@ public class DetectieLus
         }
 
         signals?.Invoke();
+
+        Detect?.Invoke();
+
+        Detecting?.Invoke(this, EventArgs.Empty);
     }
 }
